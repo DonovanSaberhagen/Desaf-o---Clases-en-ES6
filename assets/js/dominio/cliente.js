@@ -4,9 +4,14 @@ export class Cliente {
         this._impuesto = impuesto;
     }
 
+    //getters
+
     get nombre() {
         return this._nombre;
     }
+
+
+    //setters
 
     set nombre(nuevoCliente){
         this._nombre = nuevoCliente;
